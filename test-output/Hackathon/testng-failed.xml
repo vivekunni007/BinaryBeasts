@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hackathon]">
+  <test name="Urbanladder - operaTest(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="driverExit"/>
+          <include name="driverExit"/>
+          <include name="toExcelWrite" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Urbanladder - operaTest(failed) -->
+</suite> <!-- Failed suite [Hackathon] -->

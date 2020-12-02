@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing]">
+  <listeners>
+    <listener class-name="userDefinedLibraries.RetryListener"/>
+  </listeners>
+  <test name="Smoke Test two(failed)">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="Smoke Test two"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="print" invocation-numbers="0"/>
+          <include name="proceedToPayment"/>
+          <include name="operationPriceSelect"/>
+          <include name="operationstock"/>
+          <include name="toExcelWrite" invocation-numbers="0"/>
+          <include name="testcase_selectGiftCards"/>
+          <include name="getBeingAtHomeCollections" invocation-numbers="0"/>
+          <include name="operationPrice"/>
+          <include name="operationSearchBar"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="StudyChairprint" invocation-numbers="0"/>
+          <include name="operationSortBy"/>
+          <include name="testcase_customiseGiftCard"/>
+          <include name="errorMessage"/>
+          <include name="operationCategoryMenu"/>
+          <include name="operationStorage"/>
+          <include name="testcase_FillDetails"/>
+          <include name="testcase_clickGiftCards"/>
+          <include name="studyChairSearch"/>
+          <include name="ScreenShot"/>
+          <include name="testcase_readExcelDataValid"/>
+          <include name="testcase_FillValidDetails"/>
+          <include name="operationCategory"/>
+          <include name="driverExit"/>
+          <include name="driverExit"/>
+          <include name="operationSearch"/>
+          <include name="write_ErrorMessage" invocation-numbers="0"/>
+          <include name="operationStorageSelect"/>
+          <include name="testCaseReadExl"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Smoke Test two(failed) -->
+  <test name="Regression Test one(failed)">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="Regression Test one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testScenarios.UrbanLadder">
+        <methods>
+          <include name="print" invocation-numbers="0"/>
+          <include name="studyChairSearch"/>
+          <include name="operationPriceSelect"/>
+          <include name="getBeingAtHomeCollections" invocation-numbers="0"/>
+          <include name="operationSearchBar"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="driverConfig"/>
+          <include name="StudyChairprint" invocation-numbers="0"/>
+          <include name="driverExit"/>
+          <include name="driverExit"/>
+          <include name="operationSortBy"/>
+          <include name="operationStorageSelect"/>
+          <include name="operationCategoryMenu"/>
+        </methods>
+      </class> <!-- testScenarios.UrbanLadder -->
+    </classes>
+  </test> <!-- Regression Test one(failed) -->
+</suite> <!-- Failed suite [Functional Testing] -->

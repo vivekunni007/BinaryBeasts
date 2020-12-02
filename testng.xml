@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Testing" parallel="none">
+	<listeners>
+		<listener class-name="userDefinedLibraries.RetryListener" />
+	</listeners>
+	
+
+	<test name="Smoke Test one">
+	
+	<parameter name="browser" value="chrome"/>
+	
+		<groups>
+			<run>
+				<include name="Smoke Test one" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.UrbanLadder" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test>
+	
+	<test name="Smoke Test two">
+	
+	<parameter name="browser" value="opera"/>
+	
+		<groups>
+			<run>
+				<include name="Smoke Test two" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.UrbanLadder" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test>
+	
+	<test name="Regression Test one">
+		
+		<parameter name="browser" value="opera"/>
+		
+		<groups>
+			<run>
+				<include name="Regression Test one" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.UrbanLadder" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test> 
+	
+	<test name="Regression Test two">
+		
+		<parameter name="browser" value="chrome"/>
+		
+		<groups>
+			<run>
+				<include name="Regression Test two" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testScenarios.UrbanLadder" />
+			<class name="userDefinedLibraries.RetryFailedTestCases" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->

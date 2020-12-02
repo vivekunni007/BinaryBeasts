@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="38" total="104" passed="66">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Testing" duration-ms="407068" started-at="2020-11-28T10:44:33Z" finished-at="2020-11-28T10:51:20Z">
+    <groups>
+      <group name="Smoke Test two">
+        <method signature="UrbanLadder.ScreenShot()[pri:20, instance:testScenarios.UrbanLadder@50c87b21]" name="ScreenShot" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@50c87b21]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.errorMessage()[pri:18, instance:testScenarios.UrbanLadder@50c87b21]" name="errorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.getBeingAtHomeCollections(java.lang.String)[pri:13, instance:testScenarios.UrbanLadder@50c87b21]" name="getBeingAtHomeCollections" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategory()[pri:8, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategory" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPrice()[pri:9, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPrice" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearch()[pri:7, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorage()[pri:10, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationstock()[pri:11, instance:testScenarios.UrbanLadder@50c87b21]" name="operationstock" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@50c87b21]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.proceedToPayment()[pri:23, instance:testScenarios.UrbanLadder@50c87b21]" name="proceedToPayment" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@50c87b21]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testCaseReadExl()[pri:6, instance:testScenarios.UrbanLadder@50c87b21]" name="testCaseReadExl" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillDetails()[pri:17, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_FillDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillValidDetails()[pri:22, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_FillValidDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_clickGiftCards()[pri:14, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_clickGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_customiseGiftCard()[pri:16, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_customiseGiftCard" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_readExcelDataValid()[pri:21, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_readExcelDataValid" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_selectGiftCards()[pri:15, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_selectGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.toExcelWrite(java.lang.String)[pri:12, instance:testScenarios.UrbanLadder@50c87b21]" name="toExcelWrite" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.write_ErrorMessage(java.lang.String)[pri:19, instance:testScenarios.UrbanLadder@50c87b21]" name="write_ErrorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.ScreenShot()[pri:20, instance:testScenarios.UrbanLadder@7dc7cbad]" name="ScreenShot" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@7dc7cbad]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.errorMessage()[pri:18, instance:testScenarios.UrbanLadder@7dc7cbad]" name="errorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.getBeingAtHomeCollections(java.lang.String)[pri:13, instance:testScenarios.UrbanLadder@7dc7cbad]" name="getBeingAtHomeCollections" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategory()[pri:8, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategory" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPrice()[pri:9, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPrice" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearch()[pri:7, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorage()[pri:10, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationstock()[pri:11, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationstock" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@7dc7cbad]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.proceedToPayment()[pri:23, instance:testScenarios.UrbanLadder@7dc7cbad]" name="proceedToPayment" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@7dc7cbad]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testCaseReadExl()[pri:6, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testCaseReadExl" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillDetails()[pri:17, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_FillDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillValidDetails()[pri:22, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_FillValidDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_clickGiftCards()[pri:14, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_clickGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_customiseGiftCard()[pri:16, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_customiseGiftCard" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_readExcelDataValid()[pri:21, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_readExcelDataValid" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_selectGiftCards()[pri:15, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_selectGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.toExcelWrite(java.lang.String)[pri:12, instance:testScenarios.UrbanLadder@7dc7cbad]" name="toExcelWrite" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.write_ErrorMessage(java.lang.String)[pri:19, instance:testScenarios.UrbanLadder@7dc7cbad]" name="write_ErrorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@2a2d45ba]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@2a2d45ba]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@2a2d45ba]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@51565ec2]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@51565ec2]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@51565ec2]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@51565ec2]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@51565ec2]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@51565ec2]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+      </group> <!-- Smoke Test two -->
+      <group name="Regression Test two">
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@50c87b21]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@50c87b21]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@7dc7cbad]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@7dc7cbad]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@2a2d45ba]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@2a2d45ba]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@51565ec2]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@51565ec2]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@51565ec2]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@51565ec2]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@51565ec2]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@51565ec2]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+      </group> <!-- Regression Test two -->
+      <group name="Smoke Test one">
+        <method signature="UrbanLadder.ScreenShot()[pri:20, instance:testScenarios.UrbanLadder@50c87b21]" name="ScreenShot" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@50c87b21]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.errorMessage()[pri:18, instance:testScenarios.UrbanLadder@50c87b21]" name="errorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.getBeingAtHomeCollections(java.lang.String)[pri:13, instance:testScenarios.UrbanLadder@50c87b21]" name="getBeingAtHomeCollections" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategory()[pri:8, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategory" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPrice()[pri:9, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPrice" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearch()[pri:7, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorage()[pri:10, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationstock()[pri:11, instance:testScenarios.UrbanLadder@50c87b21]" name="operationstock" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@50c87b21]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.proceedToPayment()[pri:23, instance:testScenarios.UrbanLadder@50c87b21]" name="proceedToPayment" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@50c87b21]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testCaseReadExl()[pri:6, instance:testScenarios.UrbanLadder@50c87b21]" name="testCaseReadExl" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillDetails()[pri:17, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_FillDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillValidDetails()[pri:22, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_FillValidDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_clickGiftCards()[pri:14, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_clickGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_customiseGiftCard()[pri:16, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_customiseGiftCard" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_readExcelDataValid()[pri:21, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_readExcelDataValid" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_selectGiftCards()[pri:15, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_selectGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.toExcelWrite(java.lang.String)[pri:12, instance:testScenarios.UrbanLadder@50c87b21]" name="toExcelWrite" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.write_ErrorMessage(java.lang.String)[pri:19, instance:testScenarios.UrbanLadder@50c87b21]" name="write_ErrorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.ScreenShot()[pri:20, instance:testScenarios.UrbanLadder@7dc7cbad]" name="ScreenShot" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@7dc7cbad]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.errorMessage()[pri:18, instance:testScenarios.UrbanLadder@7dc7cbad]" name="errorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.getBeingAtHomeCollections(java.lang.String)[pri:13, instance:testScenarios.UrbanLadder@7dc7cbad]" name="getBeingAtHomeCollections" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategory()[pri:8, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategory" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPrice()[pri:9, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPrice" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearch()[pri:7, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorage()[pri:10, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationstock()[pri:11, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationstock" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@7dc7cbad]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.proceedToPayment()[pri:23, instance:testScenarios.UrbanLadder@7dc7cbad]" name="proceedToPayment" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@7dc7cbad]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testCaseReadExl()[pri:6, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testCaseReadExl" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillDetails()[pri:17, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_FillDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_FillValidDetails()[pri:22, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_FillValidDetails" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_clickGiftCards()[pri:14, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_clickGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_customiseGiftCard()[pri:16, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_customiseGiftCard" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_readExcelDataValid()[pri:21, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_readExcelDataValid" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.testcase_selectGiftCards()[pri:15, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_selectGiftCards" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.toExcelWrite(java.lang.String)[pri:12, instance:testScenarios.UrbanLadder@7dc7cbad]" name="toExcelWrite" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.write_ErrorMessage(java.lang.String)[pri:19, instance:testScenarios.UrbanLadder@7dc7cbad]" name="write_ErrorMessage" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@2a2d45ba]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@2a2d45ba]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@2a2d45ba]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@51565ec2]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@51565ec2]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@51565ec2]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@51565ec2]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@51565ec2]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@51565ec2]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+      </group> <!-- Smoke Test one -->
+      <group name="Regression Test one">
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@50c87b21]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@50c87b21]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@50c87b21]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@7dc7cbad]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@7dc7cbad]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@7dc7cbad]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@2a2d45ba]" name="StudyChairprint" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSortBy" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@2a2d45ba]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@2a2d45ba]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@51565ec2]" name="operationCategoryMenu" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@51565ec2]" name="operationPriceSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@51565ec2]" name="operationSearchBar" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@51565ec2]" name="operationStorageSelect" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@51565ec2]" name="print" class="testScenarios.UrbanLadder"/>
+        <method signature="UrbanLadder.studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@51565ec2]" name="studyChairSearch" class="testScenarios.UrbanLadder"/>
+      </group> <!-- Regression Test one -->
+    </groups>
+    <test name="Smoke Test one" duration-ms="142952" started-at="2020-11-28T10:44:33Z" finished-at="2020-11-28T10:46:56Z">
+      <class name="testScenarios.UrbanLadder">
+        <test-method status="PASS" signature="driverConfig(java.lang.String)[pri:0, instance:testScenarios.UrbanLadder@50c87b21]" name="driverConfig" is-config="true" duration-ms="13187" started-at="2020-11-28T16:14:33Z" finished-at="2020-11-28T16:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method status="PASS" signature="operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearchBar" duration-ms="11796" started-at="2020-11-28T16:14:46Z" finished-at="2020-11-28T16:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearchBar -->
+        <test-method status="PASS" signature="operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategoryMenu" duration-ms="8100" started-at="2020-11-28T16:14:58Z" finished-at="2020-11-28T16:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategoryMenu -->
+        <test-method status="PASS" signature="operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPriceSelect" duration-ms="2211" started-at="2020-11-28T16:15:06Z" finished-at="2020-11-28T16:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPriceSelect -->
+        <test-method status="PASS" signature="operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorageSelect" duration-ms="7330" started-at="2020-11-28T16:15:08Z" finished-at="2020-11-28T16:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorageSelect -->
+        <test-method status="PASS" signature="print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@50c87b21]" name="print" duration-ms="10171" started-at="2020-11-28T16:15:15Z" finished-at="2020-11-28T16:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="testCaseReadExl()[pri:6, instance:testScenarios.UrbanLadder@50c87b21]" name="testCaseReadExl" duration-ms="150" started-at="2020-11-28T16:15:25Z" finished-at="2020-11-28T16:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadExl -->
+        <test-method status="PASS" signature="operationSearch()[pri:7, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSearch" duration-ms="11001" started-at="2020-11-28T16:15:26Z" finished-at="2020-11-28T16:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearch -->
+        <test-method status="PASS" signature="operationCategory()[pri:8, instance:testScenarios.UrbanLadder@50c87b21]" name="operationCategory" duration-ms="3985" started-at="2020-11-28T16:15:37Z" finished-at="2020-11-28T16:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategory -->
+        <test-method status="PASS" signature="operationPrice()[pri:9, instance:testScenarios.UrbanLadder@50c87b21]" name="operationPrice" duration-ms="7728" started-at="2020-11-28T16:15:41Z" finished-at="2020-11-28T16:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPrice -->
+        <test-method status="PASS" signature="operationStorage()[pri:10, instance:testScenarios.UrbanLadder@50c87b21]" name="operationStorage" duration-ms="5626" started-at="2020-11-28T16:15:48Z" finished-at="2020-11-28T16:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorage -->
+        <test-method status="PASS" signature="operationstock()[pri:11, instance:testScenarios.UrbanLadder@50c87b21]" name="operationstock" duration-ms="8778" started-at="2020-11-28T16:15:54Z" finished-at="2020-11-28T16:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationstock -->
+        <test-method status="PASS" signature="toExcelWrite(java.lang.String)[pri:12, instance:testScenarios.UrbanLadder@50c87b21]" name="toExcelWrite" duration-ms="528" started-at="2020-11-28T16:16:03Z" finished-at="2020-11-28T16:16:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExcelWrite -->
+        <test-method status="PASS" signature="getBeingAtHomeCollections(java.lang.String)[pri:13, instance:testScenarios.UrbanLadder@50c87b21]" name="getBeingAtHomeCollections" duration-ms="4162" started-at="2020-11-28T16:16:03Z" finished-at="2020-11-28T16:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBeingAtHomeCollections -->
+        <test-method status="PASS" signature="testcase_clickGiftCards()[pri:14, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_clickGiftCards" duration-ms="14441" started-at="2020-11-28T16:16:07Z" finished-at="2020-11-28T16:16:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_clickGiftCards -->
+        <test-method status="PASS" signature="testcase_selectGiftCards()[pri:15, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_selectGiftCards" duration-ms="1172" started-at="2020-11-28T16:16:22Z" finished-at="2020-11-28T16:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_selectGiftCards -->
+        <test-method status="PASS" signature="testcase_customiseGiftCard()[pri:16, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_customiseGiftCard" duration-ms="608" started-at="2020-11-28T16:16:23Z" finished-at="2020-11-28T16:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_customiseGiftCard -->
+        <test-method status="PASS" signature="testcase_FillDetails()[pri:17, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_FillDetails" duration-ms="5262" started-at="2020-11-28T16:16:24Z" finished-at="2020-11-28T16:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_FillDetails -->
+        <test-method status="PASS" signature="errorMessage()[pri:18, instance:testScenarios.UrbanLadder@50c87b21]" name="errorMessage" duration-ms="630" started-at="2020-11-28T16:16:29Z" finished-at="2020-11-28T16:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="write_ErrorMessage(java.lang.String)[pri:19, instance:testScenarios.UrbanLadder@50c87b21]" name="write_ErrorMessage" duration-ms="76" started-at="2020-11-28T16:16:30Z" finished-at="2020-11-28T16:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write_ErrorMessage -->
+        <test-method status="PASS" signature="ScreenShot()[pri:20, instance:testScenarios.UrbanLadder@50c87b21]" name="ScreenShot" duration-ms="571" started-at="2020-11-28T16:16:30Z" finished-at="2020-11-28T16:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+        <test-method status="PASS" signature="testcase_readExcelDataValid()[pri:21, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_readExcelDataValid" duration-ms="118" started-at="2020-11-28T16:16:30Z" finished-at="2020-11-28T16:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_readExcelDataValid -->
+        <test-method status="PASS" signature="testcase_FillValidDetails()[pri:22, instance:testScenarios.UrbanLadder@50c87b21]" name="testcase_FillValidDetails" duration-ms="1637" started-at="2020-11-28T16:16:30Z" finished-at="2020-11-28T16:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_FillValidDetails -->
+        <test-method status="PASS" signature="proceedToPayment()[pri:23, instance:testScenarios.UrbanLadder@50c87b21]" name="proceedToPayment" duration-ms="8766" started-at="2020-11-28T16:16:32Z" finished-at="2020-11-28T16:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToPayment -->
+        <test-method status="PASS" signature="studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@50c87b21]" name="studyChairSearch" duration-ms="6159" started-at="2020-11-28T16:16:41Z" finished-at="2020-11-28T16:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyChairSearch -->
+        <test-method status="PASS" signature="operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@50c87b21]" name="operationSortBy" duration-ms="567" started-at="2020-11-28T16:16:47Z" finished-at="2020-11-28T16:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSortBy -->
+        <test-method status="PASS" signature="StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@50c87b21]" name="StudyChairprint" duration-ms="8104" started-at="2020-11-28T16:16:47Z" finished-at="2020-11-28T16:16:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudyChairprint -->
+        <test-method status="PASS" signature="driverExit()[pri:0, instance:testScenarios.UrbanLadder@50c87b21]" name="driverExit" is-config="true" duration-ms="60" started-at="2020-11-28T16:16:56Z" finished-at="2020-11-28T16:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- testScenarios.UrbanLadder -->
+    </test> <!-- Smoke Test one -->
+    <test name="Smoke Test two" duration-ms="138512" started-at="2020-11-28T10:46:56Z" finished-at="2020-11-28T10:49:14Z">
+      <class name="testScenarios.UrbanLadder">
+        <test-method status="PASS" signature="driverConfig(java.lang.String)[pri:0, instance:testScenarios.UrbanLadder@7dc7cbad]" name="driverConfig" is-config="true" duration-ms="16984" started-at="2020-11-28T16:16:56Z" finished-at="2020-11-28T16:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method status="PASS" signature="operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearchBar" duration-ms="13285" started-at="2020-11-28T16:17:13Z" finished-at="2020-11-28T16:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearchBar -->
+        <test-method status="PASS" signature="operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategoryMenu" duration-ms="7096" started-at="2020-11-28T16:17:26Z" finished-at="2020-11-28T16:17:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategoryMenu -->
+        <test-method status="PASS" signature="operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPriceSelect" duration-ms="1857" started-at="2020-11-28T16:17:33Z" finished-at="2020-11-28T16:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPriceSelect -->
+        <test-method status="PASS" signature="operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorageSelect" duration-ms="7073" started-at="2020-11-28T16:17:35Z" finished-at="2020-11-28T16:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorageSelect -->
+        <test-method status="PASS" signature="print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@7dc7cbad]" name="print" duration-ms="10331" started-at="2020-11-28T16:17:42Z" finished-at="2020-11-28T16:17:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="testCaseReadExl()[pri:6, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testCaseReadExl" duration-ms="74" started-at="2020-11-28T16:17:52Z" finished-at="2020-11-28T16:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReadExl -->
+        <test-method status="PASS" signature="operationSearch()[pri:7, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSearch" duration-ms="9301" started-at="2020-11-28T16:17:52Z" finished-at="2020-11-28T16:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearch -->
+        <test-method status="PASS" signature="operationCategory()[pri:8, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationCategory" duration-ms="3050" started-at="2020-11-28T16:18:02Z" finished-at="2020-11-28T16:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategory -->
+        <test-method status="PASS" signature="operationPrice()[pri:9, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationPrice" duration-ms="7366" started-at="2020-11-28T16:18:05Z" finished-at="2020-11-28T16:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPrice -->
+        <test-method status="PASS" signature="operationStorage()[pri:10, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationStorage" duration-ms="5514" started-at="2020-11-28T16:18:12Z" finished-at="2020-11-28T16:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorage -->
+        <test-method status="PASS" signature="operationstock()[pri:11, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationstock" duration-ms="8783" started-at="2020-11-28T16:18:18Z" finished-at="2020-11-28T16:18:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationstock -->
+        <test-method status="PASS" signature="toExcelWrite(java.lang.String)[pri:12, instance:testScenarios.UrbanLadder@7dc7cbad]" name="toExcelWrite" duration-ms="384" started-at="2020-11-28T16:18:26Z" finished-at="2020-11-28T16:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toExcelWrite -->
+        <test-method status="PASS" signature="getBeingAtHomeCollections(java.lang.String)[pri:13, instance:testScenarios.UrbanLadder@7dc7cbad]" name="getBeingAtHomeCollections" duration-ms="4142" started-at="2020-11-28T16:18:27Z" finished-at="2020-11-28T16:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBeingAtHomeCollections -->
+        <test-method status="PASS" signature="testcase_clickGiftCards()[pri:14, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_clickGiftCards" duration-ms="9540" started-at="2020-11-28T16:18:31Z" finished-at="2020-11-28T16:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_clickGiftCards -->
+        <test-method status="PASS" signature="testcase_selectGiftCards()[pri:15, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_selectGiftCards" duration-ms="1141" started-at="2020-11-28T16:18:40Z" finished-at="2020-11-28T16:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_selectGiftCards -->
+        <test-method status="PASS" signature="testcase_customiseGiftCard()[pri:16, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_customiseGiftCard" duration-ms="501" started-at="2020-11-28T16:18:42Z" finished-at="2020-11-28T16:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_customiseGiftCard -->
+        <test-method status="PASS" signature="testcase_FillDetails()[pri:17, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_FillDetails" duration-ms="5176" started-at="2020-11-28T16:18:42Z" finished-at="2020-11-28T16:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_FillDetails -->
+        <test-method status="PASS" signature="errorMessage()[pri:18, instance:testScenarios.UrbanLadder@7dc7cbad]" name="errorMessage" duration-ms="635" started-at="2020-11-28T16:18:47Z" finished-at="2020-11-28T16:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="write_ErrorMessage(java.lang.String)[pri:19, instance:testScenarios.UrbanLadder@7dc7cbad]" name="write_ErrorMessage" duration-ms="64" started-at="2020-11-28T16:18:48Z" finished-at="2020-11-28T16:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write_ErrorMessage -->
+        <test-method status="PASS" signature="ScreenShot()[pri:20, instance:testScenarios.UrbanLadder@7dc7cbad]" name="ScreenShot" duration-ms="529" started-at="2020-11-28T16:18:48Z" finished-at="2020-11-28T16:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+        <test-method status="PASS" signature="testcase_readExcelDataValid()[pri:21, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_readExcelDataValid" duration-ms="42" started-at="2020-11-28T16:18:48Z" finished-at="2020-11-28T16:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_readExcelDataValid -->
+        <test-method status="PASS" signature="testcase_FillValidDetails()[pri:22, instance:testScenarios.UrbanLadder@7dc7cbad]" name="testcase_FillValidDetails" duration-ms="1072" started-at="2020-11-28T16:18:49Z" finished-at="2020-11-28T16:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_FillValidDetails -->
+        <test-method status="PASS" signature="proceedToPayment()[pri:23, instance:testScenarios.UrbanLadder@7dc7cbad]" name="proceedToPayment" duration-ms="8705" started-at="2020-11-28T16:18:50Z" finished-at="2020-11-28T16:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToPayment -->
+        <test-method status="PASS" signature="studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@7dc7cbad]" name="studyChairSearch" duration-ms="6654" started-at="2020-11-28T16:18:58Z" finished-at="2020-11-28T16:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyChairSearch -->
+        <test-method status="PASS" signature="operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@7dc7cbad]" name="operationSortBy" duration-ms="495" started-at="2020-11-28T16:19:05Z" finished-at="2020-11-28T16:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSortBy -->
+        <test-method status="PASS" signature="StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@7dc7cbad]" name="StudyChairprint" duration-ms="8260" started-at="2020-11-28T16:19:05Z" finished-at="2020-11-28T16:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudyChairprint -->
+        <test-method status="PASS" signature="driverExit()[pri:0, instance:testScenarios.UrbanLadder@7dc7cbad]" name="driverExit" is-config="true" duration-ms="450" started-at="2020-11-28T16:19:14Z" finished-at="2020-11-28T16:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- testScenarios.UrbanLadder -->
+    </test> <!-- Smoke Test two -->
+    <test name="Regression Test one" duration-ms="63159" started-at="2020-11-28T10:49:14Z" finished-at="2020-11-28T10:50:17Z">
+      <class name="testScenarios.UrbanLadder">
+        <test-method status="PASS" signature="driverConfig(java.lang.String)[pri:0, instance:testScenarios.UrbanLadder@2a2d45ba]" name="driverConfig" is-config="true" duration-ms="10073" started-at="2020-11-28T16:19:14Z" finished-at="2020-11-28T16:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method status="PASS" signature="operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSearchBar" duration-ms="11283" started-at="2020-11-28T16:19:24Z" finished-at="2020-11-28T16:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearchBar -->
+        <test-method status="PASS" signature="operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationCategoryMenu" duration-ms="9078" started-at="2020-11-28T16:19:36Z" finished-at="2020-11-28T16:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategoryMenu -->
+        <test-method status="PASS" signature="operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationPriceSelect" duration-ms="1868" started-at="2020-11-28T16:19:45Z" finished-at="2020-11-28T16:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPriceSelect -->
+        <test-method status="PASS" signature="operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationStorageSelect" duration-ms="7053" started-at="2020-11-28T16:19:46Z" finished-at="2020-11-28T16:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorageSelect -->
+        <test-method status="PASS" signature="print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@2a2d45ba]" name="print" duration-ms="8045" started-at="2020-11-28T16:19:54Z" finished-at="2020-11-28T16:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@2a2d45ba]" name="studyChairSearch" duration-ms="6944" started-at="2020-11-28T16:20:02Z" finished-at="2020-11-28T16:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyChairSearch -->
+        <test-method status="PASS" signature="operationSortBy()[pri:25, instance:testScenarios.UrbanLadder@2a2d45ba]" name="operationSortBy" duration-ms="442" started-at="2020-11-28T16:20:08Z" finished-at="2020-11-28T16:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSortBy -->
+        <test-method status="PASS" signature="StudyChairprint(java.lang.String)[pri:26, instance:testScenarios.UrbanLadder@2a2d45ba]" name="StudyChairprint" duration-ms="8051" started-at="2020-11-28T16:20:09Z" finished-at="2020-11-28T16:20:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudyChairprint -->
+        <test-method status="PASS" signature="driverExit()[pri:0, instance:testScenarios.UrbanLadder@2a2d45ba]" name="driverExit" is-config="true" duration-ms="318" started-at="2020-11-28T16:20:17Z" finished-at="2020-11-28T16:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- testScenarios.UrbanLadder -->
+    </test> <!-- Regression Test one -->
+    <test name="Regression Test two" duration-ms="62370" started-at="2020-11-28T10:50:17Z" finished-at="2020-11-28T10:51:20Z">
+      <class name="testScenarios.UrbanLadder">
+        <test-method status="PASS" signature="driverConfig(java.lang.String)[pri:0, instance:testScenarios.UrbanLadder@51565ec2]" name="driverConfig" is-config="true" duration-ms="15686" started-at="2020-11-28T16:20:17Z" finished-at="2020-11-28T16:20:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfig -->
+        <test-method status="PASS" signature="operationSearchBar()[pri:1, instance:testScenarios.UrbanLadder@51565ec2]" name="operationSearchBar" duration-ms="12252" started-at="2020-11-28T16:20:33Z" finished-at="2020-11-28T16:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationSearchBar -->
+        <test-method status="PASS" signature="operationCategoryMenu()[pri:2, instance:testScenarios.UrbanLadder@51565ec2]" name="operationCategoryMenu" duration-ms="7643" started-at="2020-11-28T16:20:45Z" finished-at="2020-11-28T16:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationCategoryMenu -->
+        <test-method status="PASS" signature="operationPriceSelect()[pri:3, instance:testScenarios.UrbanLadder@51565ec2]" name="operationPriceSelect" duration-ms="2300" started-at="2020-11-28T16:20:53Z" finished-at="2020-11-28T16:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationPriceSelect -->
+        <test-method status="PASS" signature="operationStorageSelect()[pri:4, instance:testScenarios.UrbanLadder@51565ec2]" name="operationStorageSelect" duration-ms="7273" started-at="2020-11-28T16:20:55Z" finished-at="2020-11-28T16:21:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operationStorageSelect -->
+        <test-method status="PASS" signature="print(java.lang.String)[pri:5, instance:testScenarios.UrbanLadder@51565ec2]" name="print" duration-ms="8205" started-at="2020-11-28T16:21:02Z" finished-at="2020-11-28T16:21:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="studyChairSearch()[pri:24, instance:testScenarios.UrbanLadder@51565ec2]" name="studyChairSearch" duration-ms="8952" started-at="2020-11-28T16:21:11Z" finished-at="2020-11-28T16:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studyChairSearch -->
+        <test-method status="PASS" signature="driverExit()[pri:0, instance:testScenarios.UrbanLadder@51565ec2]" name="driverExit" is-config="true" duration-ms="53" started-at="2020-11-28T16:21:20Z" finished-at="2020-11-28T16:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- testScenarios.UrbanLadder -->
+    </test> <!-- Regression Test two -->
+  </suite> <!-- Functional Testing -->
+</testng-results>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="408.638" tests="66" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\JIBIN JOSE\workspace\BinaryBeasts"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\JIBIN JOSE\workspace\BinaryBeasts"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JIBINJ~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\JIBIN JOSE\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3814139910968194039.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AOMEI Backupper;C:\Program Files\Java\jdk1.8.0_111\bin\;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\JIBIN JOSE\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\JIBIN JOSE"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="JIBIN JOSE"/>
+    <property name="java.class.path" value="/C:/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_111"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_111\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\JIBIN JOSE\workspace\BinaryBeasts\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="operationSearchBar" classname="testScenarios.UrbanLadder" time="11.796"/>
+  <testcase name="operationSearchBar" classname="testScenarios.UrbanLadder" time="13.286"/>
+  <testcase name="operationSearchBar" classname="testScenarios.UrbanLadder" time="11.283"/>
+  <testcase name="operationSearchBar" classname="testScenarios.UrbanLadder" time="12.253"/>
+  <testcase name="operationCategoryMenu" classname="testScenarios.UrbanLadder" time="8.1"/>
+  <testcase name="operationCategoryMenu" classname="testScenarios.UrbanLadder" time="7.096"/>
+  <testcase name="operationCategoryMenu" classname="testScenarios.UrbanLadder" time="9.077"/>
+  <testcase name="operationCategoryMenu" classname="testScenarios.UrbanLadder" time="7.643"/>
+  <testcase name="operationPriceSelect" classname="testScenarios.UrbanLadder" time="2.21"/>
+  <testcase name="operationPriceSelect" classname="testScenarios.UrbanLadder" time="1.856"/>
+  <testcase name="operationPriceSelect" classname="testScenarios.UrbanLadder" time="1.867"/>
+  <testcase name="operationPriceSelect" classname="testScenarios.UrbanLadder" time="2.301"/>
+  <testcase name="operationStorageSelect" classname="testScenarios.UrbanLadder" time="7.33"/>
+  <testcase name="operationStorageSelect" classname="testScenarios.UrbanLadder" time="7.072"/>
+  <testcase name="operationStorageSelect" classname="testScenarios.UrbanLadder" time="7.053"/>
+  <testcase name="operationStorageSelect" classname="testScenarios.UrbanLadder" time="7.274"/>
+  <testcase name="print" classname="testScenarios.UrbanLadder" time="10.17"/>
+  <testcase name="print" classname="testScenarios.UrbanLadder" time="10.33"/>
+  <testcase name="print" classname="testScenarios.UrbanLadder" time="8.045"/>
+  <testcase name="print" classname="testScenarios.UrbanLadder" time="8.206"/>
+  <testcase name="testCaseReadExl" classname="testScenarios.UrbanLadder" time="0.152"/>
+  <testcase name="testCaseReadExl" classname="testScenarios.UrbanLadder" time="0.075"/>
+  <testcase name="operationSearch" classname="testScenarios.UrbanLadder" time="11"/>
+  <testcase name="operationSearch" classname="testScenarios.UrbanLadder" time="9.301"/>
+  <testcase name="operationCategory" classname="testScenarios.UrbanLadder" time="3.984"/>
+  <testcase name="operationCategory" classname="testScenarios.UrbanLadder" time="3.049"/>
+  <testcase name="operationPrice" classname="testScenarios.UrbanLadder" time="7.728"/>
+  <testcase name="operationPrice" classname="testScenarios.UrbanLadder" time="7.366"/>
+  <testcase name="operationStorage" classname="testScenarios.UrbanLadder" time="5.627"/>
+  <testcase name="operationStorage" classname="testScenarios.UrbanLadder" time="5.514"/>
+  <testcase name="operationstock" classname="testScenarios.UrbanLadder" time="8.779"/>
+  <testcase name="operationstock" classname="testScenarios.UrbanLadder" time="8.783"/>
+  <testcase name="toExcelWrite" classname="testScenarios.UrbanLadder" time="0.528"/>
+  <testcase name="toExcelWrite" classname="testScenarios.UrbanLadder" time="0.384"/>
+  <testcase name="getBeingAtHomeCollections" classname="testScenarios.UrbanLadder" time="4.161"/>
+  <testcase name="getBeingAtHomeCollections" classname="testScenarios.UrbanLadder" time="4.142"/>
+  <testcase name="testcase_clickGiftCards" classname="testScenarios.UrbanLadder" time="14.441"/>
+  <testcase name="testcase_clickGiftCards" classname="testScenarios.UrbanLadder" time="9.54"/>
+  <testcase name="testcase_selectGiftCards" classname="testScenarios.UrbanLadder" time="1.171"/>
+  <testcase name="testcase_selectGiftCards" classname="testScenarios.UrbanLadder" time="1.141"/>
+  <testcase name="testcase_customiseGiftCard" classname="testScenarios.UrbanLadder" time="0.608"/>
+  <testcase name="testcase_customiseGiftCard" classname="testScenarios.UrbanLadder" time="0.501"/>
+  <testcase name="testcase_FillDetails" classname="testScenarios.UrbanLadder" time="5.26"/>
+  <testcase name="testcase_FillDetails" classname="testScenarios.UrbanLadder" time="5.175"/>
+  <testcase name="errorMessage" classname="testScenarios.UrbanLadder" time="0.631"/>
+  <testcase name="errorMessage" classname="testScenarios.UrbanLadder" time="0.636"/>
+  <testcase name="write_ErrorMessage" classname="testScenarios.UrbanLadder" time="0.076"/>
+  <testcase name="write_ErrorMessage" classname="testScenarios.UrbanLadder" time="0.064"/>
+  <testcase name="ScreenShot" classname="testScenarios.UrbanLadder" time="0.571"/>
+  <testcase name="ScreenShot" classname="testScenarios.UrbanLadder" time="0.53"/>
+  <testcase name="testcase_readExcelDataValid" classname="testScenarios.UrbanLadder" time="0.117"/>
+  <testcase name="testcase_readExcelDataValid" classname="testScenarios.UrbanLadder" time="0.042"/>
+  <testcase name="testcase_FillValidDetails" classname="testScenarios.UrbanLadder" time="1.638"/>
+  <testcase name="testcase_FillValidDetails" classname="testScenarios.UrbanLadder" time="1.072"/>
+  <testcase name="proceedToPayment" classname="testScenarios.UrbanLadder" time="8.766"/>
+  <testcase name="proceedToPayment" classname="testScenarios.UrbanLadder" time="8.705"/>
+  <testcase name="studyChairSearch" classname="testScenarios.UrbanLadder" time="6.159"/>
+  <testcase name="studyChairSearch" classname="testScenarios.UrbanLadder" time="6.653"/>
+  <testcase name="studyChairSearch" classname="testScenarios.UrbanLadder" time="6.944"/>
+  <testcase name="studyChairSearch" classname="testScenarios.UrbanLadder" time="8.953"/>
+  <testcase name="operationSortBy" classname="testScenarios.UrbanLadder" time="0.567"/>
+  <testcase name="operationSortBy" classname="testScenarios.UrbanLadder" time="0.494"/>
+  <testcase name="operationSortBy" classname="testScenarios.UrbanLadder" time="0.442"/>
+  <testcase name="StudyChairprint" classname="testScenarios.UrbanLadder" time="8.104"/>
+  <testcase name="StudyChairprint" classname="testScenarios.UrbanLadder" time="8.26"/>
+  <testcase name="StudyChairprint" classname="testScenarios.UrbanLadder" time="8.052"/>
+</testsuite>

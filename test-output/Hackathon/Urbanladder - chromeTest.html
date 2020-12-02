@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Urbanladder - chromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Urbanladder - chromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 27 22:37:56 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>206 seconds (206437 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenarios.UrbanLadder.ScreenShot()'><b>ScreenShot</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.StudyChairprint()'><b>StudyChairprint</b><br>Test class: testScenarios.UrbanLadder<br>Parameters: chrome</td>
+<td></td>
+<td>9</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.errorMessage()'><b>errorMessage</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.getBeingAtHomeCollections()'><b>getBeingAtHomeCollections</b><br>Test class: testScenarios.UrbanLadder<br>Parameters: chrome</td>
+<td></td>
+<td>6</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationCategory()'><b>operationCategory</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>4</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationCategoryMenu()'><b>operationCategoryMenu</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>20</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationPrice()'><b>operationPrice</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationPriceSelect()'><b>operationPriceSelect</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>6</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationSearch()'><b>operationSearch</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>11</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationSearchBar()'><b>operationSearchBar</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>28</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationSortBy()'><b>operationSortBy</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationStorage()'><b>operationStorage</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>5</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationStorageSelect()'><b>operationStorageSelect</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>5</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.operationstock()'><b>operationstock</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.print()'><b>print</b><br>Test class: testScenarios.UrbanLadder<br>Parameters: chrome</td>
+<td></td>
+<td>12</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.proceedToPayment()'><b>proceedToPayment</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.studyChairSearch()'><b>studyChairSearch</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>7</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testCaseReadExl()'><b>testCaseReadExl</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testcase_FillDetails()'><b>testcase_FillDetails</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>5</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testcase_FillValidDetails()'><b>testcase_FillValidDetails</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testcase_clickGiftCards()'><b>testcase_clickGiftCards</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>17</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testcase_customiseGiftCard()'><b>testcase_customiseGiftCard</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testcase_readExcelDataValid()'><b>testcase_readExcelDataValid</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.testcase_selectGiftCards()'><b>testcase_selectGiftCards</b><br>Test class: testScenarios.UrbanLadder</td>
+<td></td>
+<td>1</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.toExcelWrite()'><b>toExcelWrite</b><br>Test class: testScenarios.UrbanLadder<br>Parameters: chrome</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+<tr>
+<td title='testScenarios.UrbanLadder.write_ErrorMessage()'><b>write_ErrorMessage</b><br>Test class: testScenarios.UrbanLadder<br>Parameters: chrome</td>
+<td></td>
+<td>0</td>
+<td>testScenarios.UrbanLadder@a67c67e</td></tr>
+</table><p>
+</body>
+</html>
